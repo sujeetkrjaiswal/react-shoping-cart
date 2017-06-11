@@ -252,6 +252,7 @@
   -webkit-transition: background-color linear 0.25s;
   transition: background-color linear 0.25s; }
   .ci-btn:hover {
+    cursor: pointer;
     background-color: #efefef;
     -webkit-transition: background-color linear 0.25s;
     transition: background-color linear 0.25s; }
