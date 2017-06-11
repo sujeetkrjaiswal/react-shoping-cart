@@ -48,21 +48,26 @@
 .item-card {
   height: 250px;
   width: 235px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 20px 20px 0px;
   position: relative;
   float: left;
   border: 1px solid #efefef;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  @media (min-width: 520px) {
+  @media (max-width: 519px) {
+    .item-card {
+      margin-right: 0px; } }
+  @media (min-width: 520px) and (max-width: 769px) {
     .item-card:nth-child(2n) {
       margin-right: 0px; } }
-  @media (min-width: 800px) {
+  @media (min-width: 770px) and (max-width: 999px) {
     .item-card:nth-child(3n) {
       margin-right: 0px; } }
   @media (min-width: 1000px) {
-    .item-card:nth-child(4n) {
-      margin-right: 0px; } }
+    .item-card {
+      margin-right: 20px; }
+      .item-card:nth-child(4n) {
+        margin-right: 0px; } }
   .item-card .discount {
     position: absolute;
     top: 13px;
@@ -87,7 +92,7 @@
   .item-card .info {
     position: relative;
     background-color: #efefef;
-    height: 70px; }
+    height: 80px; }
     .item-card .info .item-name {
       height: 40px;
       line-height: 40px;
