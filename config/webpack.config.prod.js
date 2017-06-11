@@ -13,7 +13,7 @@ module.exports = {
     },
     target: 'web',
     entry: {
-        vendor: ['react', 'redux', 'react-dom', 'babel-polyfill', 'whatwg-fetch', 'react-router-dom'],
+        vendor: ['react', 'redux', 'react-dom', 'whatwg-fetch', 'react-router-dom'],
         app: './src/index',
     },
     output: {

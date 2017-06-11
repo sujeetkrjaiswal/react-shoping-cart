@@ -12,7 +12,7 @@ browserSync({
   },
   server: {
     routes: {
-      '/react-starter/': 'dist',
+      '/react-shoping-cart/': 'dist',
     },
     baseDir: 'dist',
   },

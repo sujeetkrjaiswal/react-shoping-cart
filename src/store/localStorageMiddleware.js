@@ -1,7 +1,7 @@
 import { STORE_KEY_LOCALSTORAGE } from '../actions/const'
 
-const browserLog = (...args) => {
-  console.log(...args) // eslint-disable-line no-console
+const browserLog = (msg, obj) => {
+  console.log(`%c ${msg}`, 'color: green; font-weight: bold;', obj) // eslint-disable-line no-console
 }
 
 const localStorageMiddleware = ({ getState }) => next => (action) => {

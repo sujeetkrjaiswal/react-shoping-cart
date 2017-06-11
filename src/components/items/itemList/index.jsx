@@ -9,11 +9,6 @@ const mapStateToProps = state => ({
   items: state[STORE_KEY_ITEMS],
 })
 
-const mapDispatchToProps = dispatch => ({ // eslint-disable-line
-
-})
-
 export default withRouter(connect(
   mapStateToProps,
-  mapDispatchToProps,
 )(ItemListComponent))

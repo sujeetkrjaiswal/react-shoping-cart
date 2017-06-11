@@ -8,7 +8,7 @@ export const STORE_KEY_LOCALSTORAGE = 'STORE_KEY_LOCALSTORAGE'
 // API Endpoint
 // export const API_ENDPOINT = 'https://s3-ap-southeast-1.amazonaws.com/he-public-data/itemsb08b06c.json'
 // export const API_ENDPOINT = 'https://api.myjson.com/bins/qhnfp'
-export const API_ENDPOINT = '/data.json'
+export const API_ENDPOINT = './data.json'
 // API FETCH Constants
 export const ACTION_FETCH_STATUS_NOSTART = 'ACTION_FETCH_STATUS_NOSTART'
 export const ACTION_FETCH_STATUS_PENDING = 'ACTION_FETCH_STATUS_PENDING'
