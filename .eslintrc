@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "rules":{
+    "no-console": 0,
+    "semi":["error", "never"],
+    "linebreak-style": ["error", "windows"] //windows : when using CRLR; unix : when using LR
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb"
+  ]
+}

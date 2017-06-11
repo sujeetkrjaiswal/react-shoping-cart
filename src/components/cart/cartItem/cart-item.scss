@@ -1,0 +1,60 @@
+@import "../../../scss/base";
+
+$ci-height: 48px;
+.ci-detail{
+  padding:5px;
+  border:2px solid $grey;
+  color:$txtsecondary;
+  box-sizing: border-box;
+  .ci-img{
+    width: 48px;
+    height:48px;
+    vertical-align: middle;
+  }
+  .ci-text{
+    vertical-align: middle;
+    padding-left:10px;
+  }
+  .ci-remove{
+    vertical-align: middle;
+    float:right;
+    padding:10px;
+    line-height: 28px;
+    background-color: transparent;
+    transition: background-color linear 0.25s;
+    &:hover{
+      cursor: pointer;
+      background-color: $grey;
+      transition: background-color linear 0.25s;
+    }
+  }
+}
+
+$ci-size: $ci-height + 10px;
+.ci-size{
+  width: $ci-size;
+  height: $ci-size;
+  line-height: $ci-size;
+  text-align: center;
+  display: inline-block;
+}
+
+.ci-btn{
+  @extend .ci-size;
+  background-color: transparent;
+  transition: background-color linear 0.25s;
+  &:hover{
+    background-color: $grey;
+    transition: background-color linear 0.25s;
+  }
+}
+.ci-input{
+  @extend .ci-size;
+  margin:0 5px;  
+  border:2px solid $grey;
+  box-sizing: border-box;  
+}
+.ci-price{
+  @extend .ci-size;
+  font-weight: bold;
+}

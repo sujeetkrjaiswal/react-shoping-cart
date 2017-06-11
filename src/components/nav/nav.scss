@@ -1,0 +1,16 @@
+@import "../../scss/base";
+
+.navbar{
+  height: $navbarHeight;
+  background-color: $grey;
+  width: 100%;
+  .navlinks{
+    @extend .navHeightCenter;
+    margin-left:20px;
+    color: $blue;     
+    // &.active{
+    //   background-color: $blue;
+    //   color: white;
+    // }
+  }
+}
